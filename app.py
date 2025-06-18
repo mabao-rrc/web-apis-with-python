@@ -1,3 +1,6 @@
+# Marissa Abao
+# Module 5: Flask App p1-hello-api-flask
+# Date: June 18, 2025 
 from flask import Flask, jsonify, request
 
 # Intitialise the app
