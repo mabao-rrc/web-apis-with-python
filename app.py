@@ -11,11 +11,11 @@ def index():
 
 @app.get("/search")
 def search():
-	"""
-	TODO:
-	1. Capture the word that is being searched
-	2. Seach for the word on Google and display results
-	"""
+    """
+    TODO:
+    1. Capture the word that is being searched
+    2. Seach for the word on Google and display results
+    """
     return "TODO"
 
 if __name__ == "__main__":
