@@ -7,7 +7,7 @@ def index():
     """
     TODO: Render the home page provided under templates/index.html in the repository
     """
-    return "TODO"
+    return render_template("index.html")
 
 @app.get("/search")
 def search():
