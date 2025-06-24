@@ -16,7 +16,12 @@ def search():
     1. Capture the word that is being searched
     2. Seach for the word on Google and display results
     """
-    return "TODO"
+    args = request.args.get("q")
+
+    if "lucky" in request.args:
+        return redirect(f"https://www.google.com/search?q={args}&btnI=I")
+    else:
+        return redirect(f"https://www.google.com/search?q={args}")
 
 if __name__ == "__main__":
     app.run()
